@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background: rgb(10,3,39);
+    background: linear-gradient(103deg, rgba(10,3,39,1) 0%, rgba(0,26,12,1) 100%);  
+}
+
+input {
+    padding: 0 6px;
+}
